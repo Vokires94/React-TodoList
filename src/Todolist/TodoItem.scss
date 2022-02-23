@@ -1,0 +1,45 @@
+.list {
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+.list__block {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.list__item {
+    cursor: pointer;
+    width: 100%;
+}
+
+.list__item_done {
+    text-decoration-line: line-through;
+}
+
+.buttons-block {
+    margin-left: auto;
+    min-width: 145px;
+}
+
+.list__button {
+    background-color: #86a8e7;
+    border: none;
+    color: white;
+    padding: 0px 16px;
+    height: 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.list__button_edit {
+    margin-left: 10px;
+}
+
+.list__button_remove {
+    margin-left: 5px;
+}
